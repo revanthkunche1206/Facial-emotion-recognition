@@ -1,0 +1,32 @@
+body {
+  background-color: #f7f9fc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #222;
+  margin-bottom: 30px;
+}
+
+#video {
+  width: 640px;
+  height: 480px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  border: 2px solid #ccc;
+}
+
+#emotion {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0077cc;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #e6f4ff;
+  border: 1px solid #cce4ff;
+}

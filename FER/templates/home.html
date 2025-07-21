@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Emotion Detection</title>
+  <link rel="stylesheet" href="{% static 'css/webcam.css' %}">
+</head>
+<body>
+  <h1>Live Emotion Detection</h1>
+  <video id="video" width="640" height="480" autoplay></video>
+  <p>Detected Emotion: <span id="emotion"></span></p>
+
+  <script src="{% static 'js/webcam.js' %}"></script>
+</body>
+</html>
